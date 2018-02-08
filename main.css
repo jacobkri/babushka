@@ -33,3 +33,15 @@ button {box-shadow:none;font-size:inherit;}
 .button:hover {border-color:#fff;background:rgb(240,100,100);color:#fff;cursor:pointer;}
 .button:active {color:#fff;}
 .button:focus {outline: 1px solid rgb(60,60,210);}
+
+@media screen and (max-width:1300px) {
+  .applicationFrame {grid-template-columns: repeat(3, 1fr);}
+}
+
+@media screen and (max-width:600px) {
+  .applicationFrame {grid-template-columns: repeat(2, 1fr);}
+}
+
+@media screen and (max-width:550px) {
+  .applicationFrame {grid-template-columns: repeat(1, 1fr);}
+}
